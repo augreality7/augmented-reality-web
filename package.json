@@ -2,6 +2,11 @@
   "name": "augmented-reality-web",
   "version": "0.1.0",
   "private": true,
+  "browser": {
+    "fs": false,
+    "os": false,
+    "path": false
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -71,6 +76,7 @@
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "@types/uuid": "^9.0.8",
+    "encoding": "^0.1.13",
     "eslint": "^8",
     "eslint-config-next": "14.2.3",
     "postcss": "^8",
