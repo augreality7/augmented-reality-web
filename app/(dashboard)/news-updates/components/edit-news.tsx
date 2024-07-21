@@ -113,7 +113,7 @@ const EditNews: React.FC<EditNewsProps> = ({
                 <DialogHeader>
                     <DialogTitle>Edit News</DialogTitle>
                     <DialogDescription>
-                        Make changes to your news here. Click save when you're done.
+                        Make changes to your news here. Click save when you&apos;re done.
                     </DialogDescription>
                 </DialogHeader>
                 <Form {...form}>
